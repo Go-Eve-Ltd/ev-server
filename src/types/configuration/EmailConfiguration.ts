@@ -1,10 +1,12 @@
+import {SMTPSocketOptions} from "emailjs/smtp/connection";
+
 export default interface EmailConfiguration {
   smtp: {
     from: string;
     host: string;
     port: number;
-    secure: boolean;
-    requireTLS: boolean;
+    secure: boolean | SMTPSocketOptions;
+    requireTLS: boolean | SMTPSocketOptions;
     user: string;
     password: string;
   };
