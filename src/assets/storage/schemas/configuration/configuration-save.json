@@ -114,25 +114,15 @@
         "properties": {
           "type": {
             "type": "string",
-            "enum": [
-              "ocpp"
-            ]
+            "enum": ["ocpp"]
           },
           "implementation": {
             "type": "string",
-            "enum": [
-              "soap",
-              "json"
-            ]
+            "enum": ["soap", "json"]
           },
           "protocol": {
             "type": "string",
-            "enum": [
-              "http",
-              "https",
-              "ws",
-              "wss"
-            ]
+            "enum": ["http", "https", "ws", "wss"]
           },
           "host": {
             "type": "string"
@@ -158,10 +148,7 @@
       "properties": {
         "protocol": {
           "type": "string",
-          "enum": [
-            "http",
-            "https"
-          ]
+          "enum": ["http", "https"]
         },
         "host": {
           "type": "string"
@@ -219,10 +206,7 @@
       "properties": {
         "protocol": {
           "type": "string",
-          "enum": [
-            "http",
-            "https"
-          ]
+          "enum": ["http", "https"]
         },
         "host": {
           "type": "string"
@@ -242,16 +226,11 @@
       "properties": {
         "implementation": {
           "type": "string",
-          "enum": [
-            "prometheus"
-          ]
+          "enum": ["prometheus"]
         },
         "protocol": {
           "type": "string",
-          "enum": [
-            "http",
-            "https"
-          ]
+          "enum": ["http", "https"]
         },
         "host": {
           "type": "string"
@@ -321,9 +300,7 @@
       "properties": {
         "implementation": {
           "type": "string",
-          "enum": [
-            "mongodb"
-          ]
+          "enum": ["mongodb"]
         },
         "uri": {
           "type": "string"
@@ -354,10 +331,7 @@
       "properties": {
         "protocol": {
           "type": "string",
-          "enum": [
-            "http",
-            "https"
-          ]
+          "enum": ["http", "https"]
         },
         "host": {
           "type": "string"
