@@ -532,7 +532,22 @@
               "type": "boolean"
             },
             "requireTLS": {
-              "type": "boolean"
+              "oneOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ciphers": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ciphers"
+                  ]
+                }
+              ]
             },
             "user": {
               "type": "string"
@@ -567,7 +582,22 @@
               "type": "boolean"
             },
             "requireTLS": {
-              "type": "boolean"
+              "oneOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ciphers": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ciphers"
+                  ]
+                }
+              ]
             },
             "user": {
               "type": "string"
