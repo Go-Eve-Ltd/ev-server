@@ -12,7 +12,7 @@
       <meta name="supported-color-schemes" content="light" />
     </mj-raw>
   </mj-head>
-  <mj-body background-color="#308080">
+  <mj-body background-color="#000000">
 
     <mj-section padding-top="40px">
       <mj-column width="100%">
@@ -39,7 +39,7 @@
 
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-button background-color="#308080" color="#ffffff" font-size="16px" href="{{buttonUrl}}">
+        <mj-button background-color="#000000" color="#ffffff" font-size="16px" href="{{buttonUrl}}">
           Click here to continue
         </mj-button>
       </mj-column>

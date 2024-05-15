@@ -324,7 +324,7 @@ export default class EMailNotificationTask implements NotificationTask {
       .addToBody(await EmailComponentManager.getComponent(EmailComponent.MJML_TITLE))
       .addToBody(await EmailComponentManager.getComponent(EmailComponent.MJML_MAIN_MESSAGE))
       .addToBody(optionalComponents.join())
-      .addToBody(await EmailComponentManager.getComponent(EmailComponent.MJML_MAIN_ACTION))
+      //.addToBody(await EmailComponentManager.getComponent(EmailComponent.MJML_MAIN_ACTION))
       .buildTemplate();
     template.resolve(i18nInstance, context, prefix);
     // if (Utils.isDevelopmentEnv()) {
