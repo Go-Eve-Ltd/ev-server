@@ -49,7 +49,7 @@ export default class MjmlBuilder {
     const template =
       '<mjml>' +
       this.config +
-      '<mj-body background-color="#308080">' +
+      '<mj-body background-color="#000000">' +
       this.header +
       this.body.join() +
       this.footer +
